@@ -1,6 +1,6 @@
 # SEMrush
 
-# [Демо](http://posevkin.ru/test/)
+# [Демо](http://posevkin.ru/semrush/)
 
 ```
 cd public/
