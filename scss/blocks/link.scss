@@ -1,0 +1,30 @@
+.link {
+    color: $base-color;
+    text-decoration: none;
+    cursor: pointer;
+
+    &_project-info {
+        padding-top: 15px;
+    }
+
+    &_inactive {
+        cursor: default;
+    }
+
+    // more common rule for external links:
+    // a:not([href*="semrush.com"])
+    &_external {
+        @include flexbox();
+        font-size: 18px;
+
+        &:after {
+            content: "";
+            background-image: url(../img/sprite.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin: -2px 0 0 3px;
+        }
+    }
+}

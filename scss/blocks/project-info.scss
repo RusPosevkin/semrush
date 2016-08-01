@@ -1,0 +1,13 @@
+.project-info {
+    @include flexbox();
+    &__column {
+        flex-basis: 50%;
+        padding: 0 $base-padding-horizontal;
+        line-height: 26px;
+        font-size: 20px;
+
+        h2 {
+            color: $project-info-title-color;
+        }
+    }
+}

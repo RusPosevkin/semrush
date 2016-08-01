@@ -1,0 +1,9 @@
+[
+  { "id": "site_audit", "name": "Site Audit" },
+  { "id": "pos_track", "name": "Position Tracking" },
+  { "id": "seo_ideas", "name": "SEO Ideas" },
+  { "id": "soc_media", "name": "Social Media" },
+  { "id": "brand_monit", "name": "Brand Monitoring", "status": "beta" },
+  { "id": "back_aud", "name": "Backlink Audit", "status": "beta" },
+  { "id": "key_tool", "name": "Keyword tool", "status": "alpha" }
+]

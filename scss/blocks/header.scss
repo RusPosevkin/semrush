@@ -1,0 +1,64 @@
+.header {
+    @include flexbox();
+    justify-content: space-between;
+    border-color: $border-color;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 20px 0;
+    max-width: $max-width-page;
+
+    &_project-info {
+        justify-content: flex-start;
+        font-size: 16px;
+    }
+
+    .header__title {
+        font-weight: bold;
+        font-size: 32px;
+        padding-left: $base-padding-horizontal;
+        margin-right: 15px;
+    }
+
+    .gadgets {
+        @include flexbox();
+        justify-content: flex-end;
+        line-height: 32px;
+        padding-right: $base-padding-horizontal;
+
+        .header__switcher {
+            font-size: 0;
+            height: 20px;
+            margin-right: 20px;
+
+            span {
+                font-size: $base-font-size;
+                border: 1px solid $base-color;
+                border-left:0;
+                padding: 5px 10px;
+                cursor: pointer;
+
+                &:first-child {
+                    border-left: 1px solid $base-color;
+                    border-radius: $base-border-radius 0 0 $base-border-radius;
+                }
+
+                &:last-child {
+                    border-radius: 0 $base-border-radius $base-border-radius 0;
+                }
+            }
+            .active {
+                cursor: default;
+                color: #fff;
+                background-color: $base-color;
+            }
+        }
+        .header__favorite {
+            margin-right: 20px;
+            display: flex;
+
+            .text {
+                margin-right: 5px;
+            }
+        }
+    }
+}

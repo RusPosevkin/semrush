@@ -1,0 +1,6 @@
+{{#if favorite}}<div class="project__tool project__tool_favorite{{#if favorite/status}} project__tool_{{favorite/status}}{{/if}}">{{favorite/name}}</div>{{/if}}
+<div class="list">
+    {{#each tools}}
+        <div class="project__tool{{#if status}} project__tool_{{status}}{{/if}}{{#unless ../favorite}} project__tool_stretched{{/unless}}">{{name}}</div>
+    {{/each}}
+</div>

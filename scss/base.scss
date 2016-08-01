@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    padding-top: 12px;
+    color: $font-color;
+    font-size: $base-font-size;
+    min-width: 1280px;
+}
+
+body {
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    text-align: left;
+}
+
+.wrapper {
+    @include flexbox();
+}
+
+.hide {
+    display: none;
+}

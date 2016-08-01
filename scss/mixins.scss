@@ -1,0 +1,17 @@
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin label() {
+    display: inline-block;
+    color: $label-text-color;
+    font-size: $label-font-size;
+    vertical-align: bottom;
+    line-height: $base-font-size;
+    padding: 0 2px;
+    margin-right: 5px;
+}

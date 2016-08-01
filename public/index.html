@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <title>SEMrush projects list</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="modal" id="modal"></div>
+	        <header class="header">
+	            <span class="header__title">Projects</span>
+	            <span class="gadgets">
+	                <div class="header__switcher">
+	                    <span id="switcher-all">All</span>
+	                    <span id="switcher-favorite">Only favorite</span>
+	                </div>
+
+	                <div class="header__favorite">
+	                    <span class="text">Favorite Tool </span>
+	                    <div class="select" id="favorite-select">
+	                    </div>
+	                </div>
+
+	                <div class="button" id="add-project">Add New Project</div>
+	            </span>
+	        </header>
+			<main id="main"></main>
+		</div>
+
+		<script data-main="js/main" src="node_modules/requirejs/require.js"></script>
+	</body>
+</html>
