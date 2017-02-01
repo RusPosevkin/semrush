@@ -1,22 +1,36 @@
 # SEMrush
 
-# [Демо](http://posevkin.ru/semrush/)
+# [Demo](http://posevkin.ru/semrush/)
 
-```
-cd public/
-npm install
-cd ..
-sass --watch scss:public/css
-```
-\+ веб-сервер
+## How to start
+1. Clone this repository https://github.com/RusPosevkin/semrush.git
 
+2. Install dependencies.
+``` bash
+$> cd public
+$> npm install
+```
+
+3. Compile Sass.
+``` bash
+$> cd ..
+$> sass --watch scss:public/css
+```
+4. Run a local server
+```bash
+$> cd public
+$> python -m SimpleHTTPServer 8080
+```
+5. Open http://localhost:8080/ in the browser.
+
+## Assignment
 Используя Backbonejs необходимо реализовать простой список проектов и страницу проекта.
 Список проектов должен включать в себя следующие элементы:
 1. лист проектов, у каждого проекта
-    * название
-    * домен
-    * переключатель “любимый проект”
-    * блоки инструментов включающие только название
+  * название
+  * домен
+  * переключатель “любимый проект”
+  * блоки инструментов включающие только название
 2. элемент выбора основного инструмента “Favorite tool”,
 3. переключатель “Все проекты/Любимые проекты”
 4. кнопку добавления нового проекта
