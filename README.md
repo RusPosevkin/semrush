@@ -10,7 +10,6 @@
 $> cd public
 $> npm install
 ```
-
 3. Compile Sass.
 ``` bash
 $> cd ..
