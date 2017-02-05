@@ -5,20 +5,20 @@
 ## How to start
 1. Clone this repository https://github.com/RusPosevkin/semrush.git
 2. Install dependencies.
-``` bash
-$> cd public
-$> npm install
-```
+  ``` bash
+  $> cd public
+  $> npm install
+  ```
 3. Compile Sass.
-``` bash
-$> cd ..
-$> sass --watch scss:public/css
-```
+  ``` bash
+  $> cd ..
+  $> sass --watch scss:public/css
+  ```
 4. Run a local server
-```bash
-$> cd public
-$> python -m SimpleHTTPServer 8080
-```
+  ```bash
+  $> cd public
+  $> python -m SimpleHTTPServer 8080
+  ```
 5. Open http://localhost:8080/ in the browser.
 
 ## Assignment
